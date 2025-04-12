@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.viewport-background {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.main-contain {
+    width: 600px;
+    margin: auto;
+}
+
+.title-banner img {
+    width: 600px;
+    margin-top: 40px;
+}
+
+.nav-bar {
+    padding-top: 10px;
+    border-bottom: 1px solid orangered;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 4px 0px 4px;
+    font-style: italic;
+    color: orangered;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: yellow;
+}

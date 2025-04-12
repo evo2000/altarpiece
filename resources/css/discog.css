@@ -1,0 +1,47 @@
+.discog-list {
+    margin: 20px 0px 0px 0px;
+}
+
+.discog-item {
+    padding-top: 20px;
+    height: 240px;
+}
+
+.discog-item img {
+    width: 200px;
+    float: left;
+}
+
+.discog-item-text {
+    width: 380px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.discog-item-text h3 {
+    font-weight: unset;
+    color: orangered;
+}
+
+.discog-item-text h4 {
+    font-weight: unset;
+    color: darkkhaki;
+}
+
+.discog-item-text ul {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.discog-item-text a {
+    color: darkkhaki;
+}
+
+.discog-item-text a:hover {
+    color: yellow;
+}
+
+.discog-item-text p {
+    padding-top: 10px;
+    color: darkkhaki;
+}
