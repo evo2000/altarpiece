@@ -1,6 +1,31 @@
+@font-face {
+    font-family: 'gnu-freeserif';
+    src: url(/resources/fonts/gnu-freefont/FreeSerif.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'gnu-freeserif';
+    src: url(/resources/fonts/gnu-freefont/FreeSerifBold.woff) format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'gnu-freeserif';
+    src: url(/resources/fonts/gnu-freefont/FreeSerifBoldItalic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gnu-freeserif';
+    src: url(/resources/fonts/gnu-freefont/FreeSerifItalic.woff) format('woff');
+    font-style: italic;
+}
+
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'gnu-freeserif', serif;
 }
 
 .viewport-background {
@@ -40,4 +65,42 @@
 
 .nav-bar a:hover {
     color: yellow;
+}
+
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid orangered;
+}
+
+.align-l {
+    float: left;
+    width: 33.33333%;
+    text-align: left;
+}
+.align-c {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.align-r {
+    float: left;
+    width: 33.33333%;
+    text-align: right;
+}
+
+.footer p {
+    color: orangered;
+    padding: 10px 0px 4px 0px;
+}
+
+.footer a {
+    color: orangered;
+}
+
+.footer a:hover {
+    color: yellow;
+}
+
+.footer img {
+    width: 600px;
 }
