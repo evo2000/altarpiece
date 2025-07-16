@@ -1,24 +1,22 @@
 .discog-list {
-    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .discog-item {
-    padding-top: 20px;
-    height: 300px;
+    padding-top: 40px;
+    width: 282px;
 }
 
 .discog-item img {
+    margin-bottom: 10px;
     width: 280px;
     float: left;
+    border: 1px solid orangered;
 }
 
-.discog-item-text {
-    width: 300px;
-    padding-left: 20px;
-    overflow: hidden;
-}
-
-.discog-item-text h3 {
+.discog-item-text h2, h3 {
     font-weight: unset;
     color: orangered;
 }
@@ -26,6 +24,11 @@
 .discog-item-text h4 {
     font-weight: unset;
     color: orangered;
+}
+
+.discog-item-text p {
+    padding-top: 10px;
+    color: darkkhaki;
 }
 
 .discog-item-text ul {
@@ -39,9 +42,4 @@
 
 .discog-item-text a:hover {
     color: yellow;
-}
-
-.discog-item-text p {
-    padding-top: 10px;
-    color: darkkhaki;
 }
