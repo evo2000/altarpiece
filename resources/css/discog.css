@@ -33,7 +33,11 @@
 
 .discog-item-text ul {
     padding-top: 10px;
-    list-style: none;
+}
+
+.discog-item-text li {
+    color: darkkhaki;
+    list-style-position: inside;
 }
 
 .discog-item-text a {
