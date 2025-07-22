@@ -1,0 +1,58 @@
+
+.home-img {
+    margin-top: 40px;
+    border: 1px solid orangered;
+}
+
+.home-img img {
+    width: 598px;
+}
+
+.home-img p {
+    color: orangered;
+    padding-left: 10px;
+}
+
+.recent-release {
+    padding-top:  40px;
+}
+
+.recent-release-text {
+    float: right;
+    margin: 10px 0px 0px 20px;
+    width: 280px;
+}
+
+.recent-release h2, h3, h4 {
+    color: orangered;
+    font-weight: unset;
+}
+
+.recent-release img {
+    margin-top: 10px;
+    width: 280px;
+    border: 1px solid orangered;
+}
+
+.recent-release p {
+    padding-top: 10px;
+    color: darkkhaki;
+}
+
+.recent-release ul {
+    padding-top: 10px;
+}
+
+.recent-release li {
+    list-style: disc;
+    list-style-position: inside;
+    color: darkkhaki;
+}
+
+.recent-release li a {
+    color: darkkhaki;
+}
+
+.recent-release li a:hover {
+    color: yellow;
+}

@@ -1,0 +1,31 @@
+.show-list ul {
+    padding: 0px 0px 20px 0px;
+}
+
+.show-list li {
+    padding: 40px 0px 0px 0px;
+}
+
+.show-list h2 {
+    font-weight: unset;
+    color: orangered;
+}
+
+.show-list h3 {
+    font-weight: unset;
+    color: darkkhaki;
+}
+
+.show-list p {
+    font-weight: unset;
+    color: darkkhaki;
+}
+
+.show-list a {
+    color: darkkhaki;
+    text-decoration: underline;
+}
+
+.show-list a:hover {
+    color: yellow;
+}
