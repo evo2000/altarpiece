@@ -28,8 +28,15 @@
     font-family: 'gnu-freeserif', serif;
 }
 
+:root {
+    --accent-color: orangered;
+    --text-color: darkkhaki;
+    --link-color: yellow;
+    --bg-color: black;
+}
+
 .viewport-background {
-    background-color: black;
+    background-color: var(--bg-color);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -48,7 +55,7 @@
 
 .nav-bar {
     padding-top: 10px;
-    border-bottom: 1px solid orangered;
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .nav-bar li {
@@ -59,17 +66,17 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 4px 0px 4px;
     font-style: italic;
-    color: orangered;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 .nav-bar a:hover {
-    color: yellow;
+    color: var(--link-color);
 }
 
 .footer {
     margin-top: 40px;
-    border-top: 1px solid orangered;
+    border-top: 1px solid var(--accent-color);
 }
 
 .align-l {
@@ -89,16 +96,16 @@
 }
 
 .footer p {
-    color: orangered;
+    color: var(--accent-color);
     padding: 4px 0px 12px 0px;
 }
 
 .footer a {
-    color: orangered;
+    color: var(--accent-color);
 }
 
 .footer a:hover {
-    color: yellow;
+    color: var(--link-color);
 }
 
 .footer img {
