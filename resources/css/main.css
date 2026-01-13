@@ -74,6 +74,21 @@
     color: var(--link-color);
 }
 
+.nav-bar img {
+    height: 20px;
+}
+
+.tint-container {
+  background-color: orangered;
+  width: fit-content;
+}
+
+.tint-container img {
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+
 .footer {
     margin-top: 40px;
     border-top: 1px solid var(--accent-color);
