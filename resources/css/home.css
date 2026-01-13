@@ -1,7 +1,7 @@
 
 .home-img {
     margin-top: 40px;
-    border: 1px solid orangered;
+    border: 1px solid var(--accent-color);
 }
 
 .home-img img {
@@ -9,7 +9,7 @@
 }
 
 .home-img p {
-    color: orangered;
+    color: var(--accent-color);
     padding-left: 10px;
 }
 
@@ -24,19 +24,19 @@
 }
 
 .recent-release h2, h3, h4 {
-    color: orangered;
+    color: var(--accent-color);
     font-weight: unset;
 }
 
 .recent-release img {
     margin-top: 10px;
     width: 280px;
-    border: 1px solid orangered;
+    border: 1px solid var(--accent-color);
 }
 
 .recent-release p {
     padding-top: 10px;
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .recent-release ul {
@@ -46,13 +46,13 @@
 .recent-release li {
     list-style: disc;
     list-style-position: inside;
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .recent-release li a {
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .recent-release li a:hover {
-    color: yellow;
+    color: var(--link-color);
 }

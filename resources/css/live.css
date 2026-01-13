@@ -8,24 +8,32 @@
 
 .show-list h2 {
     font-weight: unset;
-    color: orangered;
+    color: var(--accent-color);
 }
 
 .show-list h3 {
     font-weight: unset;
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .show-list p {
     font-weight: unset;
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .show-list a {
-    color: darkkhaki;
+    color: var(--text-color);
     text-decoration: underline;
 }
 
 .show-list a:hover {
+    color: var(--link-color);
+}
+
+.list-overlay {
+    position: absolute;
+    z-index: 10;
     color: yellow;
+    rotate: 330deg;
+    margin: -60px 0px 0px 20px;
 }

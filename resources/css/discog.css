@@ -13,22 +13,22 @@
     margin-bottom: 10px;
     width: 280px;
     float: left;
-    border: 1px solid orangered;
+    border: 1px solid var(--accent-color);
 }
 
 .discog-item-text h2, h3 {
     font-weight: unset;
-    color: orangered;
+    color: var(--accent-color);
 }
 
 .discog-item-text h4 {
     font-weight: unset;
-    color: orangered;
+    color: var(--accent-color);
 }
 
 .discog-item-text p {
     padding-top: 10px;
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .discog-item-text ul {
@@ -36,14 +36,14 @@
 }
 
 .discog-item-text li {
-    color: darkkhaki;
+    color: var(--text-color);
     list-style-position: inside;
 }
 
 .discog-item-text a {
-    color: darkkhaki;
+    color: var(--text-color);
 }
 
 .discog-item-text a:hover {
-    color: yellow;
+    color: var(--link-color);
 }
