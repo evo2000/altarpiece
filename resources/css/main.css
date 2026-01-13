@@ -59,19 +59,8 @@
 }
 
 .nav-bar li {
-    display: inline;
-}
-
-.nav-bar a {
-    margin: 0px 0px 0px 0px;
+    display: inline-block;
     padding: 0px 4px 0px 4px;
-    font-style: italic;
-    color: var(--accent-color);
-    text-decoration: none;
-}
-
-.nav-bar a:hover {
-    color: var(--link-color);
 }
 
 .nav-bar img {
@@ -79,15 +68,18 @@
 }
 
 .tint-container {
-  background-color: orangered;
+  background-color: var(--accent-color);
   width: fit-content;
+}
+
+.tint-container:hover {
+    background-color: var(--link-color);
 }
 
 .tint-container img {
   display: block;
   mix-blend-mode: multiply;
 }
-
 
 .footer {
     margin-top: 40px;
